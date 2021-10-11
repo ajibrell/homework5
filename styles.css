@@ -54,7 +54,22 @@ body {
     height: 532px;
     left: 0px;
     top: 340px;
+    overflow: scroll;
   }
+  .purple-background-main { 
+    
+    margin-bottom:50px;
+    margin-top:50px;
+    background: rgba(245,197,252,1);
+    width: 100%;
+    height: 532px;
+    position: absolute;
+    height: 532px;
+    left: 0px;
+    top: 340px;
+    /*overflow: scroll;*/
+  }
+
   #homepage-title {
         color: #976c9e;
         font-family: Poppins;
@@ -212,7 +227,7 @@ color: white;
   width: 162px;
   height: 61px;
   left: 350px;
-  top: 780px;
+  top: 400px;
   background: #966B9D;
   border-radius: 48px;
   border: 0px; 
@@ -293,7 +308,7 @@ color: white;
   width: 162px;
   height: 61px;
   left: 900px;
-  top: 780px;
+  top: 400px;
   background: #966B9D;
   border-radius: 48px;
   border: 0px; 
@@ -374,7 +389,7 @@ color: white;
   width: 162px;
   height: 61px;
   left: 1480px;
-  top: 780px;
+  top: 400px;
   background: #966B9D;
   border-radius: 48px;
   border: 0px; 
@@ -400,11 +415,12 @@ color: white;
 
 /* <-------------------- Menu 1 Right Arrow CSS ----------------------> */
 .arrow-right-menu {
-  position: absolute;
+
+position: absolute;
 width: 40px;
 height: 36px;
 left: 1250px;
-top: 650px;
+top: 250px;
 
 }
 
@@ -468,7 +484,7 @@ color: white;
   width: 162px;
   height: 61px;
   left: 350px;
-  top: 780px;
+  top: 400px;
   background: #966B9D;
   border-radius: 48px;
   border: 0px; 
@@ -549,7 +565,7 @@ color: white;
   width: 162px;
   height: 61px;
   left: 900px;
-  top: 780px;
+  top: 400px;
   background: #966B9D;
   border-radius: 48px;
   border: 0px; 
@@ -630,7 +646,7 @@ color: white;
   width: 162px;
   height: 61px;
   left: 1480px;
-  top: 780px;
+  top: 400px;
   background: #966B9D;
   border-radius: 48px;
   border: 0px; 
@@ -660,7 +676,7 @@ color: white;
   width: 40px;
   height: 36px;
   left: 670px;
-  top: 650px;
+  top: 250px;
 
 }
 
@@ -692,63 +708,65 @@ font-size: 67.1515px;
 line-height: 101px;
 }
 
-#walnut-description {
+#bun-description {
+  
   position: absolute;
-width: 295px;
-height: 96px;
-left: 100px;
-top: 600px;
+  width: 295px;
+  height: 96px;
+  left: 100px;
+  top: 600px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 21px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
 }
 
+
+
 .white-rectangle {
-    background: white;
-    width: 100%;
-    height: 515px;
-
-    position: absolute;
-width: 1344px;
-height: 515px;
-left: 47px;
-top: 491px;
-
-border: 5px dashed #F5C5FD;
-box-sizing: border-box;
+  
+  background: white;
+  width: 100%;
+  height: 515px;
+  position: absolute;
+  width: 1344px;
+  height: 515px;
+  left: 47px;
+  top: 491px;
+  border: 5px dashed #F5C5FD;
+  box-sizing: border-box;
   
 }
 
 #walnut-pic {
-position: absolute;
-width: 382px;
-height: 369px;
-left: 426px;
-top: 573px;
+  
+  position: absolute;
+  width: 382px;
+  height: 369px;
+  left: 426px;
+  top: 573px;
 }
 
 .addToCart {
-  
-    
-position: absolute;
-width: 160px;
-height: 50px;
-left: 100px;
-top: 940px;
-background: #966B9D;
-border: 0px; 
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-color: white;
-letter-spacing: 0.04em;
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  left: 100px;
+  top: 940px;
+  background: #966B9D;
+  border: 0px; 
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 0.04em;
 }
 
 /*<-------------------- Our Story Page --------------->*/
  #ourstory-content {
+   
   position: absolute;
   width: 592px;
   height: 349px;
@@ -764,12 +782,25 @@ letter-spacing: 0.04em;
  }
 
  #ourstoryBox { 
-
+   
   position: absolute;
-width: 630px;
-height: 385px;
-left: 430px;
-top: 50px;
-border: 4px dashed #966B9D;
-box-sizing: border-box;
+  width: 630px;
+  height: 385px;
+  left: 430px;
+  top: 50px;
+  border: 4px dashed #966B9D;
+  box-sizing: border-box;
+
  }
+
+ /*<----------Footer----------->*/
+ footer {
+   text-align: center;
+   color: white;
+   padding-bottom: 1.5px;
+   background-color: #966B9D;
+   height: 50px;
+   width: 100%;
+   bottom: 0;
+   position: fixed;
+}
